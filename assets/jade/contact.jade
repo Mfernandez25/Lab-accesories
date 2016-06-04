@@ -1,0 +1,62 @@
+doctype html
+html(lang="en")
+	head
+		title contact
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="assets/css/main.css")
+		link(rel="stylesheet", href="assets/css/bootstrap.min.css")
+		link(rel="stylesheet", href="assets/font-awesome/css/font-awesome.min.css")
+
+		script(src="assets/js/jquery.js")
+		script(src="assets/js/bootstrap.min.js")
+
+	body
+		include ./header.jade
+		section#hero
+			.hero-top
+				.container
+					.row
+						.col-sm-10
+							ul.list-unstyle.list-inline
+								li 
+									a(href="iindex.html")
+										strong HOME
+								li
+									a(href="contact.html")
+										strong CONTACT US
+						.col-sm-2
+							.shooping.text-center 
+								i.fa.fa-shopping-cart
+								h5 My Cart
+								p 
+									small 2 items-$244.00
+		#contact
+			.oscuro
+				.container
+					.row
+						.col-sm-6.text-center
+							button CONTACT US
+						.col-sm-6
+							.caja
+								h2 Contact info
+								p 123 456 789
+								p 1223 445 6678
+								p Street New York 123 
+		#contact2
+				.container 
+					.row
+						.col-sm-6
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.275577233502!2d-71.52250318534931!3d-16.410824742789117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b03bd681007%3A0x5ae3562018410ea6!2sParque+Lambramani!5e0!3m2!1ses!2spe!4v1464979733088" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						.col-md-6
+							.row
+								input(type="text", placeholder="First Name", required)
+								input.pull-right(type="text", placeholder="Last Name", required)
+							.row
+								input(type="text", placeholder="Email", required)
+								input.pull-right(type="text", placeholder="WebSite", required)
+								input#subjet(type="text", placeholder="Subject", required)
+								textarea(placeholder="MESSAGE" rows="10")
+
+								button.pd-1.btn.btn-default.pull-right SEND 
+		include ./footer.jade

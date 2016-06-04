@@ -1,0 +1,50 @@
+.pd-1 {
+  margin: 10px;
+}
+
+#contact {
+  background-image: url("../../assets/images/slider2.jpg");
+  background-size: cover;
+  height: 300px;
+  color: white;
+}
+
+#contact .oscuro {
+  background: rgba(0, 0, 0, 0.5);
+  height: 300px;
+}
+
+#contact button {
+  background-color: #E48080;
+  width: auto;
+  font-size: 50px;
+  border: 1px solid #E48080;
+  margin-top: 80px;
+}
+
+#contact .caja {
+  margin-top: 80px;
+}
+
+#contact2 {
+  padding: 40px 0;
+}
+
+#contact2 input {
+  width: 45%;
+  background: #EEEEEE;
+  margin-bottom: 3%;
+  padding: 10px;
+}
+
+#contact2 textarea {
+  background: #EEEEEE;
+  width: 100%;
+  margin-bottom: 3%;
+  padding: 10px;
+}
+
+#contact2 button {
+  background-color: #414141;
+  color: #FFF;
+}

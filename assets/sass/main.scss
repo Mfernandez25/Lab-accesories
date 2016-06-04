@@ -1,0 +1,315 @@
+// *{outline:1px solid red;}
+$c-plomo:#EEEEEE;
+$c-pink:#E48080;
+$c-plomoclaro:#F8F3EF;
+$c-letra:#CDCDCD;
+$c-botones:#E88E8E;
+$c-plomooscuro:#414141;
+$c-negro:#212121;
+$c-blanco:#FDFDFD;
+
+.pink{color: $c-pink;}
+.cj{
+	padding: 10px 0;}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#header{
+	.header-top{
+		background-color:$c-plomo;
+		padding: 10px 0;
+	}
+	.list-header{
+		li{
+			margin: 5px 10px;
+		}
+		p{
+			display: inline-block;
+			margin: 0 6px;
+		}	
+	}
+	.header{
+		i{
+			font-size: 70px;
+		}
+		.caja-clock{
+			padding: 30px 0;
+		}
+		.clock{
+			display: inline-block;
+		}
+		input{
+			width: 80%;
+			padding:10px;
+		}
+		.fa-search{
+			font-size: 25px;
+			position: relative;
+			margin-left: -25px;
+			color:$c-plomo;
+		}
+	}	
+}
+#hero{
+	.hero-top{
+		background-color: $c-plomo;
+		li{
+			padding:20px 15px;
+			cursor: pointer;
+			
+			margin: 5px;
+		}
+		a{
+			color: $c-negro;
+		}
+		li a:hover{
+			background-color:$c-pink;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+		}
+		.shooping{
+			background-color: $c-plomooscuro;
+			width: 90%;
+			padding: 2px 0;
+			color: white;
+			font: right;
+			i{
+				font-size: 20px;
+			}
+			h5{
+				display: inline-block;
+			}
+		}
+	}
+	.hero{
+		background-image: url("../../assets/images/slider1.jpg");
+		background-size: cover;
+		color:$c-plomoclaro;
+		padding: 20px 0;
+		.descripcion{
+			height: 300px;
+			h1{
+			border: 1px solid $c-plomoclaro;
+			padding: 20px;
+			margin-top: 100px;
+			}
+		}
+	}
+	
+}
+#new-products{
+	.accesorios{
+		padding: 20px 0;
+		img{
+			width: 100%
+		}
+	}
+	.list-produts{
+		padding: 10px;
+		font-size: 15px;
+	}
+	.caja-productos{
+		padding: 5px;
+		border: 1px solid $c-plomoclaro;
+		margin: 20px 0 30px;
+		.sale{
+			width: 50px;
+			background-color:$c-negro;
+			color: white;
+			padding: 2px;
+			position: absolute;
+			top: 40px;
+		}
+		.new{
+			width: 50px;
+			background-color:$c-pink;
+			color: white;
+			padding: 2px;
+			position: absolute;
+			top: 80px;
+		}
+		img{
+			width: 100%;
+		}
+		.price{
+			color:$c-pink; 
+		}
+	}
+	
+}
+#brands{
+	background-image: url("../../assets/images/client-bg.jpg");
+	background-size: cover;
+	padding: 70px 0;
+	img{
+		width: 15%;
+		margin: 9px;
+		max-height: 70px;
+	}
+
+}
+#products{
+	.list-productos{
+		padding: 20px 0;
+	}
+	.caja-productos{
+		// width: 50%;
+		padding: 5px;
+		border: 1px solid $c-plomo;
+		display: inline-block;
+		.sale{
+			
+			background-color:$c-negro;
+			color: white;
+			padding: 2px 7px;
+			position: absolute;
+			top: 20px;
+		}
+		.new{
+			background-color:$c-pink;
+			color: white;
+			padding: 2px 7px;
+			position: absolute;
+			top: 60px;
+		}
+		img{
+			width: 100%;
+		}
+	}
+	.caja-productos2{
+		// display: inline-block;
+		// width: 47%;
+		padding: 5px;
+		.add{
+			background-color: $c-negro;
+			color: $c-blanco;
+			width: 70%;
+			padding:5px  10px;
+			p{
+				display: inline-block
+			}
+		}
+	}
+}
+#blog{
+	padding: 20px;
+	.blog{
+		padding: 10px 0;
+		h2 {
+			display: inline-block;
+		}
+		i{
+			font-size: 34px;
+			margin: 10px;	
+		}
+	}
+	.caja-blog{
+		img{
+			width: 100%;
+		}
+		a{
+			color: $c-pink;
+			text-decoration: none;
+		}
+	}
+	.cajas{
+		padding: 50px 0;
+	}
+	.caja-blog1{
+		border: 1px solid $c-plomoclaro;
+		padding: 10px;
+		i{
+			font-size: 58px;
+		}
+		.caja{
+			width: 78%;
+
+		}
+	}
+}
+#footer{
+	background-color: $c-plomo;
+	padding: 30px;
+	h4{
+		font-weight: bold;
+	}
+	.accesories{
+		i{
+			font-size: 20px;
+			background-color: $c-blanco;
+			padding:12px;
+			margin-right: 2px;
+		}
+	}
+	.about{
+		ul{
+			padding:0px;
+		}
+		li{
+			list-style: none;
+			padding:0;
+		}
+		i{
+			background-color: #fff;
+			padding: 15px;
+		}
+		p{
+			width: 80%;
+
+		}
+	}
+}
+#footer2{
+	background-color: $c-negro;
+	color:$c-blanco;
+	img{
+		margin-top:20px;
+	}
+}
+.mg{
+	margin-top: 20px;
+}
+.pd-1{
+	margin: 10px;
+}
+#contact{
+	background-image: url("../../assets/images/slider2.jpg");
+	background-size: cover;
+	height: 300px;
+	color:white;
+	.oscuro{
+		background:rgba(0,0,0,0.5);
+		height: 300px;
+	}			
+	button{
+		background-color: $c-pink;
+		width:auto;
+		font-size: 50px;
+		border: 1px solid $c-pink;
+		margin-top: 80px;
+	}
+	.caja{
+		margin-top: 80px
+	}
+}
+#contact2{
+	padding: 40px 0;
+	input{
+	width:45%; 
+	background:$c-plomo;
+	margin-bottom:3%;
+	padding:10px;
+	}
+
+	textarea{background:$c-plomo;
+	width:100% ;
+	margin-bottom:3%;
+	padding:10px;
+	}
+	button{
+	background-color: $c-plomooscuro;
+	color:#FFF;}
+}
